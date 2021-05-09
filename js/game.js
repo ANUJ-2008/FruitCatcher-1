@@ -63,6 +63,15 @@ class Game{
 
                          
                      }
+                     
+                      textSize(30)
+                     fill("red")
+                     text("player1-"+allPlayers.player1.score,50,50)
+
+                     textSize(30)
+                     fill("yellow")
+                     text("player2-"+allPlayers.player2.score,100,100)
+                    
                     
                      
                  
